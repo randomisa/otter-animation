@@ -1,0 +1,88 @@
+.otter-which-should-be-moving {
+    position: absolute;
+
+    animation: moveOtter 20s linear infinite;
+
+}
+
+
+@keyframes moveOtter {
+    0% {
+        left: 2%;
+        top: 5%;
+        transform: rotate(0deg);
+
+    }
+    25% {
+        left: 90%;
+        top: 5%;
+        transform: rotate(0deg);
+    }
+    26% {
+        left: 90%;
+        top: 5%;
+        transform: rotate(90deg);
+    }
+    50% {
+        left: 90%;
+        top: 90%;
+        transform: rotate(90deg);
+    }
+    51% {
+        left: 90%;
+        top: 90%;
+        transform: rotate(180deg);
+    }
+    75% {
+        left: 2%;
+        top: 90%;
+        transform: rotate(180deg);
+    }
+    76% {
+        left: 2%;
+        top: 90%;
+        transform: rotate(270deg);
+    }
+    99% {
+        left: 2%;
+        top: 5%;
+        transform: rotate(270deg);
+    }
+    100% {
+        left: 2%;
+        top: 5%;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+// @keyframes moveOtter {
+//     0% {
+//         transform: translate(100px, 100px);
+//     }
+//     25% {
+//         transform: translate(1700px, 100px);
+//     }
+//     26% {
+//         transform: translate(1700px, 100px) rotate(90deg);
+//     }
+//     50% {
+//         transform: translate(1700px, 800px) rotate(90deg);
+//     }
+//     51% {
+//         transform: translate(1700px, 800px) rotate(180deg);
+//     }
+//     75% {
+//         transform: translate(100px, 800px) rotate(180deg);
+//     }
+//     76% {
+//         transform: translate(100px, 800px) rotate(270deg);
+//     }
+//     99% {
+//         transform: translate(100px, 100px) rotate(270deg);
+//     }
+//     100% {
+//         transform: translate(100px, 100px) rotate(360deg);
+//     }
+// }

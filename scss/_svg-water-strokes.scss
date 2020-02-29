@@ -1,0 +1,17 @@
+.line-to-move-along {
+    position: absolute;
+
+    
+    stroke-dasharray: 100000;
+    stroke-dashoffset: 0;
+    animation: dash 10s linear;
+    }
+    
+    @keyframes dash {
+        from {
+            stroke-dashoffset: 100000;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
